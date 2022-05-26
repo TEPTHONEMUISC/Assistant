@@ -22,5 +22,5 @@ contact_filter = filters.create(
     or message.outgoing
 )
 
-bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="Musicjepthon"))
+bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="Muisc_Tepthone"))
 call_py = PyTgCalls(bot)
